@@ -1,3 +1,6 @@
+# RUN THIS FIRST, type A then enter after running.
+# Set-ExecutionPolicy RemoteSigned
+
 # Check if Winget is installed
 if (-not (Get-Command winget -ErrorAction SilentlyContinue)) {
     Write-Host "Winget is not installed. Please update Windows App Installer from the Microsoft Store." -ForegroundColor Red
